@@ -33,6 +33,7 @@ const invokeAction = async ({action, contactId, name, email, phone}) => {
       console.warn('\x1B[31m Unknown action type!');
   }
 };
+invokeAction(argv);
 
 //invokeAction({action: 'list'});
 //invokeAction({action: 'get', contactId: '05olLMgyVQdWRwgKfg5J6'});
@@ -42,4 +43,4 @@ const invokeAction = async ({action, contactId, name, email, phone}) => {
 // email: 'mango@gmail.com',
 // phone: '322-22-22',
 //});
-invokeAction({action: 'remove', contactId: 'qdggE76Jtbfd9eWJHrssH'});
+//invokeAction({action: 'remove', contactId: 'qdggE76Jtbfd9eWJHrssH'});

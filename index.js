@@ -43,4 +43,4 @@ invokeAction(argv);
 // email: 'mango@gmail.com',
 // phone: '322-22-22',
 //});
-//invokeAction({action: 'remove', contactId: 'qdggE76Jtbfd9eWJHrssH'});
+invokeAction({action: 'remove', contactId: 'qdggE76Jtbfd9eWJHrssH'});
